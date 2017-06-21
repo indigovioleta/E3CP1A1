@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+}
+body {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: lighter;
+}
+.row {
+	clear:both;
+}
+.col {
+	box-sizing: border-box;
+	float: left;
+	width: 33%;
+	padding: 3%;
+}
+header {
+	background-color: #72be49;
+	color: #FFF;
+	height: 33vh;
+	width: 100%;
+}
+header h1 {
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 3rem;
+}
+.banner {
+	align-items: center;
+	padding-top: 10vh;
+}
+img {
+	margin-bottom: 5%;
+	width: 100%;
+}
